@@ -10,7 +10,6 @@ const app = express();
 app.use(express());
 
 // app.use(cors());
-
 //helpers middleware functions
 // A middleware should look for a header with name X-Username.
 // If this is set, it will modify req to add a username property set to this value.
